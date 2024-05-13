@@ -52,7 +52,7 @@ ui <- dashboardPage(
   dashboardBody(
         tabsetPanel(
           tabPanel("Guide",
-                   HTML('
+                   HTML('<iframe width="560" height="315" src="https://www.youtube.com/embed/Rcoa04NSouc?si=rQxvfJryQjddlsEL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'),
                    textOutput("text_xlsx_default"),
                    downloadButton("download_xlsx","Download"),
                    textOutput("text_xlsx_default2"),
